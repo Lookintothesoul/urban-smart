@@ -1,0 +1,56 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    background: #03303b;
+}
+
+.loginForm {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    margin: 0px 16px;
+    background: #a2d6d3;
+    border-radius: 10px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.loginForm h3 {
+    margin: 0px;
+    text-align: center;
+}
+
+.loginForm input {
+    border: 0px;
+    padding: 0px;
+    background: none;
+}
+
+.loginForm button {
+    background: #67c35a;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.loginForm button:disabled {
+    background: #aeada7;
+}
+
+.loginForm button:not(:disabled):hover {
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.input {
+    background: #e7ebdb;
+    padding: 8px;
+    border-radius: 5px;
+}
